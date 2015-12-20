@@ -1,0 +1,17 @@
+{
+  "name": "day_08",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine"
+  },
+  "author": "Jindrich Besta",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "jasmine": "^2.4.1",
+    "readline": "^1.2.1"
+  }
+}
