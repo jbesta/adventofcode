@@ -1,0 +1,13 @@
+{
+  "name": "day_18",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "author": "Jindrich Besta",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "readline": "^1.2.1"
+  }
+}
