@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Magic Missile",
+        "cost": 53,
+        "damage": 4
+    },
+    {
+        "name": "Drain",
+        "cost": 73,
+        "damage": 2,
+        "hp": 2
+    },
+    {
+        "name": "Shield",
+        "cost": 113,
+        "effect": {
+            "type": "armor",
+            "amount": 7,
+            "duration": 6
+        }
+    },
+    {
+        "name": "Poison",
+        "cost": 173,
+        "effect": {
+            "type": "damage",
+            "amount": 3,
+            "duration": 6
+        }
+    },
+    {
+        "name": "Recharge",
+        "cost": 229,
+        "effect": {
+            "type": "mana",
+            "amount": 101,
+            "duration": 5
+        }
+    }
+]
