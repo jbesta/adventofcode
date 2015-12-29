@@ -184,7 +184,7 @@ Game.prototype.run = function() {
                 this.player.armor + ' armor, ' + this.player.mana + ' mana');
             console.log('- ' + this.boss.name + ' has ' + this.boss.hp + ' hp');
         }
-        if (program.suddenDeath) {
+        if (program.suddenDeath && attacker === this.player) {
             var playerInjury = this.player.hit(1);
             if (program.verbose > 1) {
                 console.log(this.player.name + ' loses ' + playerInjury + ' hp');
